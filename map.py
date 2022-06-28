@@ -24,7 +24,7 @@ last_y = 0
 n_points = 0
 length = 0
 
-
+brain = Dqn(5, 3, 0.9)
 action2rotation = [0, 20, -20]
 last_reward = 0
 scores = []
